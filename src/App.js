@@ -1,8 +1,13 @@
 import './App.css';
+import Profile from './components/Profile';
 
 function App() {
   return (
-    <h1>test</h1>
+    <main>
+      <div className='container'>
+      <Profile />
+      </div>
+    </main>
   );
 }
 
