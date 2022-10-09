@@ -1,8 +1,6 @@
 import React from "react";
-import profile from "../assets/dummy.png" 
+import profile from "../assets/dummy.png";
 
-export default function Profile(){
-    return (
-        <img src={profile} className="profile-img" />
-    )
+export default function Profile() {
+  return <img src={profile} className="profile-img" />;
 }
