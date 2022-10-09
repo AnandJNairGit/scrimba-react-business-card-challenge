@@ -1,4 +1,3 @@
-
 /* Box sizing rules */
 *,
 *::before,
@@ -13,8 +12,8 @@
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -28,6 +27,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background: #23252c;
 }
 
 /* A elements that don't have a class get default styles */
@@ -50,3 +50,24 @@ select {
   font: inherit;
 }
 
+/* MAIN STYLES STARTS HERE  */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vh;
+}
+.container {
+  height: 780px;
+  width: 317px;
+  background: rgb(105, 81, 127);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.profile-img {
+  width: 317px;
+  height: 317px;
+}
