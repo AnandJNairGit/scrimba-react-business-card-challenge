@@ -3,6 +3,29 @@ import email from "../assets/email.png";
 import twitter from "../assets/Twitter.png";
 import linked from "../assets/linked.png";
 
+function Info() {
+  return (
+    <div className="info-container">
+      <div>
+        <h2 className="info-title">About</h2>
+        <p className="info-para">
+          I am a frontend developer with a particular interest in making things
+          simple and automating daily tasks. I try to keep up with security and
+          best practices, and am always looking for new things to learn.
+        </p>
+      </div>
+
+      <div>
+        <h2 className="info-title">Intrests</h2>
+        <p className="info-para">
+          Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
+          Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+        </p>
+      </div>
+    </div>
+  );
+}
+
 function PersonDetails() {
   return (
     <div className="person-detail-container">
@@ -32,6 +55,7 @@ export default function ProfileDetail() {
       <section className="profile-detail">
         <PersonDetails />
         <ConnectButtons />
+        <Info />
       </section>
     </>
   );
