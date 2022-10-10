@@ -71,3 +71,12 @@ main {
   width: 317px;
   height: 317px;
 }
+
+
+/* PROFILE DETAIL SECTION  */
+
+.profile-detail{
+  width: 100%;
+  height: 399px;
+  background: rgb(45, 42, 36);
+}
